@@ -1,0 +1,101 @@
+body {
+  overflow: hidden;
+}
+
+#menu_lateral {
+  width: 25%;
+  height: 100vh;
+  float: left;
+  background-color: darkcyan;
+  text-align: center;
+}
+
+#menu_conteudo {
+  width: 75%;
+  height: 100vh;
+  float: right;
+  background-color: darkslategray;
+  text-align: center;
+  padding: auto;
+}
+
+img {
+  border-radius: 100%;
+  size: 30px;
+  padding: 40px;
+}
+/* BOTÕES */
+.buttons {
+  background-color: antiquewhite;
+  color: darkcyan;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  padding: 5px 5px;
+  border-radius: 20px;
+  width: 200px;
+  border-bottom: 5px solid darkgrey;
+  transition: transform 0.5s;
+  margin-top: 15px;
+}
+
+.buttons:hover {
+  background-color: wheat;
+  box-shadow: 0px 0px 15px wheat;
+  transform: translate(0px, -5px);
+  transition: transform 0.5s;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0%;
+  color: antiquewhite;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: antiquewhite;
+}
+
+.icons {
+  width: 40px;
+  padding: 2px;
+  border-bottom: 5px solid darkgrey;
+  background-color: antiquewhite;
+  transition: transform 0.5s;
+}
+
+.icons:hover {
+  box-shadow: 0px 0px 15px wheat;
+  transform: translate(px, -5px);
+  transition: transform 0.5s;
+}
+
+.texts {
+  padding: 1px 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+}
+
+.ol {
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+  text-align: left;
+  padding: 50px 250px;
+}
+
+.cor {
+  color: darkcyan;
+}
+
+.ul {
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+  text-align: left;
+  padding: 50px 100px;
+}
